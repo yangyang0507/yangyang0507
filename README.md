@@ -28,6 +28,6 @@ I'm D.Yang, Love coding, Love Rock N' Roll~
 
 <p>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=8"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=8&margin-w=4"/>
   </a>
 </p>
