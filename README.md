@@ -16,10 +16,10 @@ I'm D.Yang, Love coding, Love Rock N' Roll~
 #### 🔖 Github Status
 
 <p>
-  <a href="https://github.com/yangyang0507">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="150" align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true" />
   </a>
-  <a href="https://github.com/yangyang0507">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="150" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangyang0507&layout=compact" />
   </a>
 </p>
