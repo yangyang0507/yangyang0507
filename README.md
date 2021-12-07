@@ -1,8 +1,8 @@
-### Hi there 👋
+## Hi there 👋
 
 I'm D.Yang
 
-### 🏆 Github Status
+## 🏆 Github Status
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img width=800 src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=8&theme=onedark&no-frame=true"/>
