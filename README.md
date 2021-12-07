@@ -17,10 +17,10 @@ I'm D.Yang, Love coding, Love Rock N' Roll~
 
 <p>
   <a href="https://github.com/yangyang0507">
-    <img height="150" align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true&theme=swift" />
+    <img height="150" align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true" />
   </a>
   <a href="https://github.com/yangyang0507">
-    <img height="150" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangyang0507&layout=compact&theme=swift" />
+    <img height="150" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangyang0507&layout=compact" />
   </a>
 </p>
 
@@ -28,6 +28,6 @@ I'm D.Yang, Love coding, Love Rock N' Roll~
 
 <p>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=8&theme=flat&no-frame=true"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=8&no-frame=true"/>
   </a>
 </p>
