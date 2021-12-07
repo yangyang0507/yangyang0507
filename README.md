@@ -6,7 +6,7 @@ I'm D.Yang, Love coding, Love Rock N' Roll~
 
 <p>
   <a herf="https://github.com/baomidou/mybatis-plus">
-    <img height=120" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus" />
+    <img height="120" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus" />
   </a>
   <a herf="https://github.com/baomidou/mybatis-plus-doc">
     <img height="120" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus-doc" />
