@@ -1,6 +1,6 @@
 #### 👋 Hi There
 
-I'm D.Yang, Love coding, Love Rock N' Roll~
+I'm D.Yang, Love Coding, Love Rock N' Roll~
 
 #### 🏅 Top Repositories
 
