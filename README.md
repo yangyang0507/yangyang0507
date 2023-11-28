@@ -5,10 +5,10 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 #### 🏅 Top Repositories
 
 <a href="https://github.com/baomidou/mybatis-plus">
-  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus" />
+  <img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus" />
 </a>
 <a href="https://github.com/baomidou/mybatis-plus-doc">
-  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus-doc" />
+  <img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus-doc" />
 </a>
 
 #### 🔖 Github Status
