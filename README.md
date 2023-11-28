@@ -23,5 +23,5 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 #### 🏆 Github Profile Trophy
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=5&margin-w=10&margin-h=10"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=yangyang0507&column=5&margin-w=5&margin-h=5"/>
 </a>
