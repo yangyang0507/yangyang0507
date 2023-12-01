@@ -24,4 +24,6 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 </a>
 
 #### 💻 Coding Activity
-<embed src="https://wakatime.com/share/@devyang/4b9582f2-3e9a-4090-b499-c7c6078ccc8f.svg"></embed>
+<a href="https://wakatime.com/@devyang">
+  <img src="https://wakatime.com/share/@devyang/4b9582f2-3e9a-4090-b499-c7c6078ccc8f.svg"/>
+</a>
