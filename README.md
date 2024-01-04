@@ -19,11 +19,11 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 #### 🔖 Github Status
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true&theme=default" />
+  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true&theme=default" />
 </a>
 
 <a href="https://git.io/streak-stats">
-  <img align="center" src="https://streak-stats.demolab.com?user=yangyang0507&card_width=450" alt="GitHub Streak" />
+  <img height=150 align="center" src="https://streak-stats.demolab.com?user=yangyang0507" alt="GitHub Streak" />
 </a>
 
 #### 🏆 Github Profile Trophy
