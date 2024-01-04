@@ -22,6 +22,10 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true&theme=default" />
 </a>
 
+<a href="https://git.io/streak-stats">
+  <img align="center" src="https://streak-stats.demolab.com?user=yangyang0507" alt="GitHub Streak" />
+</a>
+
 #### 🏆 Github Profile Trophy
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
