@@ -23,7 +23,7 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 </a>
 
 <a href="https://git.io/streak-stats">
-  <img align="center" src="https://streak-stats.demolab.com?user=yangyang0507" alt="GitHub Streak" />
+  <img align="center" src="https://streak-stats.demolab.com?user=yangyang0507&card_width=450" alt="GitHub Streak" />
 </a>
 
 #### 🏆 Github Profile Trophy
