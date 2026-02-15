@@ -10,16 +10,16 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 #### 🏅 Top Repositories
 
 <a href="https://github.com/baomidou/mybatis-plus">
-  <img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus" />
+  <img height=120 align="center" src="profile/mybatis-plus-stats.svg" />
 </a>
 <a href="https://github.com/baomidou/mybatis-plus-doc">
-  <img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=baomidou&repo=mybatis-plus-doc" />
+  <img height=120 align="center" src="profile/mybatis-plus-doc-stats.svg" />
 </a>
 
 #### 🔖 Github Status
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api?username=yangyang0507&count_private=true&show_icons=true&theme=default" />
+  <img height=150 align="center" src="profile/stats.svg" />
 </a>
 
 <a href="https://git.io/streak-stats">
@@ -29,5 +29,5 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 #### 🏆 Github Profile Trophy
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy-tawny.vercel.app/?username=yangyang0507&column=5&margin-w=5&margin-h=5"/>
+  <img src="profile/trophy.svg"/>
 </a>
