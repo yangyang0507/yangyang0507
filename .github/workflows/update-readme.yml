@@ -43,10 +43,34 @@ jobs:
 
       - name: Generate trophy
         run: |
-          curl --fail --silent --show-error --location \
-            --retry 3 --retry-delay 5 --retry-all-errors \
-            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=classic&column=-1&row=10&margin-w=10&margin-h=10&no-bg=false&no-frame=false" \
-            --output profile/trophy.svg
+          # The official github-profile-trophy.vercel.app instance is paused, so try the
+          # community load-balancing endpoints from the project's README in order.
+          # A total failure here must not fail the whole workflow — keep the existing trophy.svg.
+          endpoints=(
+            "https://trophy.ryglcloud.net"
+            "https://trophy.benkou.dev"
+            "https://github-trophies.devomb.com"
+            "https://trophygithubreadmelang.cybee.dpdns.org"
+            "https://github-profile-trophy.vercel.app"
+          )
+          query="?username=${{ github.repository_owner }}&theme=classic&column=-1&row=10&margin-w=10&margin-h=10&no-bg=false&no-frame=false"
+          tmp=$(mktemp)
+          ok=false
+          for base in "${endpoints[@]}"; do
+            echo "Trying $base ..."
+            if curl --fail --silent --show-error --location --max-time 60 \
+              --retry 2 --retry-delay 5 --retry-all-errors \
+              "$base/$query" --output "$tmp"; then
+              ok=true
+              echo "Fetched trophy from $base"
+              break
+            fi
+          done
+          if [ "$ok" = true ]; then
+            mv "$tmp" profile/trophy.svg
+          else
+            echo "::warning::All trophy endpoints unavailable, keeping existing profile/trophy.svg"
+          fi
 
       - name: Commit changes
         run: |
