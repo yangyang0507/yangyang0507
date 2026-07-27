@@ -1,8 +1,8 @@
 
     <svg
-      width="1365"
-      height="115"
-      viewBox="0 0 1365 115"
+      width="1310"
+      height="110"
+      viewBox="0 0 1310 110"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -10,9 +10,9 @@
         <svg
           x="0"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -20,8 +20,8 @@
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -52,7 +52,7 @@
   
           <text x="50%" y="18" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="13" fill="#000">MultiLanguage</text>
           <text x="50%" y="85" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10.5" fill="#666">Rainbow Lang User</text>
-          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#666">12pt</text>
+          <text x="50%" y="97" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji" font-weight="bold" font-size="10" fill="#666">15pt</text>
           
     <style>
     @keyframes MultiLanguageRankAnimation {
@@ -88,11 +88,11 @@
         </svg>
         
         <svg
-          x="125"
+          x="120"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -100,8 +100,8 @@
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -168,11 +168,11 @@
         </svg>
         
         <svg
-          x="250"
+          x="240"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -180,8 +180,8 @@
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -248,11 +248,11 @@
         </svg>
         
         <svg
-          x="375"
+          x="360"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -260,8 +260,8 @@
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -330,7 +330,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         width: 0px;
       }
       to {
-        width: 17.16px;
+        width: 16.96px;
       }
     }
     #Commits-rank-progress{
@@ -358,11 +358,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="500"
+          x="480"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -370,8 +370,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -459,11 +459,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="625"
+          x="600"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -471,8 +471,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -569,11 +569,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="750"
+          x="720"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -581,8 +581,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -679,11 +679,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="875"
+          x="840"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -691,8 +691,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -780,11 +780,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="1000"
+          x="960"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -792,8 +792,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -860,11 +860,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="1125"
+          x="1080"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -872,8 +872,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
@@ -940,11 +940,11 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
         </svg>
         
         <svg
-          x="1250"
+          x="1200"
           y="0"
-          width="115"
-          height="115"
-          viewBox="0 0 115 115"
+          width="110"
+          height="110"
+          viewBox="0 0 110 110"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -952,8 +952,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             x="0.5"
             y="0.5"
             rx="4.5"
-            width="114"
-            height="114"
+            width="109"
+            height="109"
             stroke="#e1e4e8"
             fill="#FFF"
             stroke-opacity="1"
