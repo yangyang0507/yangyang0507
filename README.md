@@ -9,32 +9,14 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 
 #### 🏅 Top Repositories
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/baomidou/mybatis-plus">
-        <img height=120 src="profile/mybatis-plus-stats.svg" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/agi-fans/oh-my-dsh">
-        <img height=120 src="profile/oh-my-dsh-stats.svg" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/yangyang0507/starepo">
-        <img height=120 src="profile/starepo-stats.svg" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/yangyang0507/herdr-skill">
-        <img height=120 src="profile/herdr-skill-stats.svg" />
-      </a>
-    </td>
-  </tr>
-</table>
+<!-- TOP_REPOS:START -->
+| Repository | Stars | Forks | Lang | Description |
+| --- | ---: | ---: | :---: | --- |
+| [mybatis-plus](https://github.com/baomidou/mybatis-plus) | 17462 | 4446 | Java | An powerful enhanced toolkit of MyBatis for simplify development |
+| [oh-my-dsh](https://github.com/agi-fans/oh-my-dsh) | 27 | 4 | TypeScript | A focused, keyboard-first DeepSeek coding agent built on the ... |
+| [starepo](https://github.com/yangyang0507/starepo) | 32 | 1 | TypeScript | Search your GitHub stars with semantic search |
+| [herdr-skill](https://github.com/yangyang0507/herdr-skill) | 3 | 0 | Shell | better skill for herdr |
+<!-- TOP_REPOS:END -->
 
 #### 🔖 GitHub Status
 
