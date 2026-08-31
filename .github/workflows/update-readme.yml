@@ -9,6 +9,10 @@ on:
     paths:
       - '.github/workflows/update-readme.yml'
 
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest  
@@ -52,7 +56,6 @@ jobs:
           fetch_card profile/mybatis-plus-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus" "${stats_hosts[@]}"
           fetch_card profile/mybatis-plus-doc-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus-doc" "${stats_hosts[@]}"
           fetch_card profile/streak.svg "?user=$owner" "https://streak-stats.demolab.com"
-
 
       - name: Generate trophy
         run: |
