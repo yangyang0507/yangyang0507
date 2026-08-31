@@ -16,6 +16,43 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Generate stats & pin cards
+        run: |
+          # The official github-readme-stats.vercel.app instance is paused
+          # (DEPLOYMENT_PAUSED), so try community mirrors first with the
+          # official instance as last resort. A total failure here must not
+          # fail the whole workflow — keep the existing SVG.
+          fetch_card() {
+            local out="$1" path="$2"; shift 2
+            local hosts=("$@") tmp ok=false url
+            tmp=$(mktemp)
+            for host in "${hosts[@]}"; do
+              url="$host/$path"
+              echo "Trying $url ..."
+              if curl --fail --silent --show-error --location --max-time 60 \
+                --retry 2 --retry-delay 5 --retry-all-errors \
+                "$url" --output "$tmp" \
+                && ! grep -qi 'something went wrong' "$tmp"; then
+                mv "$tmp" "$out"
+                ok=true
+                echo "Fetched $out"
+                break
+              fi
+            done
+            if [ "$ok" != true ]; then
+              echo "::warning::All endpoints unavailable for $out, keeping existing file"
+            fi
+          }
+          stats_hosts=(
+            "https://github-readme-stats-eight-theta.vercel.app"
+            "https://github-readme-stats.vercel.app"
+          )
+          owner="${{ github.repository_owner }}"
+          fetch_card profile/stats.svg "api?username=$owner&show_icons=true" "${stats_hosts[@]}"
+          fetch_card profile/mybatis-plus-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus" "${stats_hosts[@]}"
+          fetch_card profile/mybatis-plus-doc-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus-doc" "${stats_hosts[@]}"
+          fetch_card profile/streak.svg "?user=$owner" "https://streak-stats.demolab.com"
+
 
       - name: Generate trophy
         run: |
