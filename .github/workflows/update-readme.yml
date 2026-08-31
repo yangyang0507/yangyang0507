@@ -54,7 +54,9 @@ jobs:
           owner="${{ github.repository_owner }}"
           fetch_card profile/stats.svg "api?username=$owner&show_icons=true" "${stats_hosts[@]}"
           fetch_card profile/mybatis-plus-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus" "${stats_hosts[@]}"
-          fetch_card profile/mybatis-plus-doc-stats.svg "api/pin/?username=baomidou&repo=mybatis-plus-doc" "${stats_hosts[@]}"
+          fetch_card profile/oh-my-dsh-stats.svg "api/pin/?username=agi-fans&repo=oh-my-dsh" "${stats_hosts[@]}"
+          fetch_card profile/starepo-stats.svg "api/pin/?username=$owner&repo=starepo" "${stats_hosts[@]}"
+          fetch_card profile/herdr-skill-stats.svg "api/pin/?username=$owner&repo=herdr-skill" "${stats_hosts[@]}"
           fetch_card profile/streak.svg "?user=$owner" "https://streak-stats.demolab.com"
 
       - name: Generate trophy

@@ -12,8 +12,15 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 <a href="https://github.com/baomidou/mybatis-plus">
   <img height=120 align="center" src="profile/mybatis-plus-stats.svg" />
 </a>
-<a href="https://github.com/baomidou/mybatis-plus-doc">
-  <img height=120 align="center" src="profile/mybatis-plus-doc-stats.svg" />
+<a href="https://github.com/agi-fans/oh-my-dsh">
+  <img height=120 align="center" src="profile/oh-my-dsh-stats.svg" />
+</a>
+<br/>
+<a href="https://github.com/yangyang0507/starepo">
+  <img height=120 align="center" src="profile/starepo-stats.svg" />
+</a>
+<a href="https://github.com/yangyang0507/herdr-skill">
+  <img height=120 align="center" src="profile/herdr-skill-stats.svg" />
 </a>
 
 #### 🔖 GitHub Status
