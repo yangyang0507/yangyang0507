@@ -9,23 +9,25 @@ on:
     paths:
       - '.github/workflows/update-readme.yml'
 
+permissions:
+  contents: write
+
 concurrency:
   group: update-readme
   cancel-in-progress: false
 
 jobs:
   update-stats:
-    runs-on: ubuntu-latest  
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Generate stats & streak cards
+
+      - name: Generate stats cards
         run: |
-          # The official github-readme-stats.vercel.app instance is paused
-          # (DEPLOYMENT_PAUSED), so try community mirrors first with the
-          # official instance as last resort. A total failure here must not
-          # fail the whole workflow — keep the existing SVG.
+          # Official github-readme-stats.vercel.app is often paused, so try
+          # a community mirror first. Failure keeps the existing SVG.
           fetch_card() {
             local out="$1" path="$2"; shift 2
             local hosts=("$@") tmp ok=false url
@@ -36,7 +38,10 @@ jobs:
               if curl --fail --silent --show-error --location --max-time 60 \
                 --retry 2 --retry-delay 5 --retry-all-errors \
                 "$url" --output "$tmp" \
+                && grep -q '<svg' "$tmp" \
                 && ! grep -qi 'something went wrong' "$tmp"; then
+                # Generator leftover when hide_title=true
+                sed -i '/^[[:space:]]*undefined[[:space:]]*$/d' "$tmp"
                 mv "$tmp" "$out"
                 ok=true
                 echo "Fetched $out"
@@ -47,85 +52,24 @@ jobs:
               echo "::warning::All endpoints unavailable for $out, keeping existing file"
             fi
           }
+
           stats_hosts=(
             "https://github-readme-stats-eight-theta.vercel.app"
             "https://github-readme-stats.vercel.app"
           )
           owner="${{ github.repository_owner }}"
-          fetch_card profile/stats.svg "api?username=$owner&show_icons=true" "${stats_hosts[@]}"
-          fetch_card profile/streak.svg "?user=$owner" "https://streak-stats.demolab.com"
-
-      - name: Update Top Repositories
-        run: |
-          # Rewrite the text table between the TOP_REPOS markers in README.md
-          # from the GitHub API — no third-party card service involved.
-          repos=(
-            "baomidou/mybatis-plus"
-            "agi-fans/oh-my-dsh"
-            "yangyang0507/starepo"
-            "yangyang0507/herdr-skill"
-          )
-          tmp_json=$(mktemp) tmp_md=$(mktemp)
-          {
-            echo "| Repository | Stars | Forks | Lang | Description |"
-            echo "| --- | ---: | ---: | :---: | --- |"
-            for repo in "${repos[@]}"; do
-              if curl --fail --silent --show-error --location --max-time 30 \
-                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-                "https://api.github.com/repos/$repo" -o "$tmp_json"; then
-                jq -r '
-                  def trunc: if length > 64 then .[:61] + "..." else . end;
-                  "| [\(.name)](\(.html_url)) | \(.stargazers_count) | \(.forks_count) | \(.language // "-") | \((.description // "-" | gsub("\\|"; "/") | gsub("\n"; " ") | trunc)) |"
-                ' "$tmp_json"
-              else
-                echo "::warning::Failed to fetch $repo, skipping row"
-              fi
-            done
-          } > "$tmp_md"
-          if grep -q 'TOP_REPOS:START' README.md && grep -q 'TOP_REPOS:END' README.md; then
-            awk -v md="$tmp_md" '
-              /<!-- TOP_REPOS:START -->/ { print; while ((getline line < md) > 0) print line; skip=1; next }
-              /<!-- TOP_REPOS:END -->/   { skip=0 }
-              !skip { print }
-            ' README.md > README.md.tmp && mv README.md.tmp README.md
-          else
-            echo "::warning::TOP_REPOS markers missing in README.md, skipping update"
-          fi
-
-      - name: Generate trophy
-        run: |
-          # The official github-profile-trophy.vercel.app instance is paused, so try the
-          # community load-balancing endpoints from the project's README in order.
-          # A total failure here must not fail the whole workflow — keep the existing trophy.svg.
-          endpoints=(
-            "https://trophy.ryglcloud.net"
-            "https://trophy.benkou.dev"
-            "https://github-trophies.devomb.com"
-            "https://trophygithubreadmelang.cybee.dpdns.org"
-            "https://github-profile-trophy.vercel.app"
-          )
-          query="?username=${{ github.repository_owner }}&theme=classic&column=-1&row=10&margin-w=10&margin-h=10&no-bg=false&no-frame=false"
-          tmp=$(mktemp)
-          ok=false
-          for base in "${endpoints[@]}"; do
-            echo "Trying $base ..."
-            if curl --fail --silent --show-error --location --max-time 60 \
-              --retry 2 --retry-delay 5 --retry-all-errors \
-              "$base/$query" --output "$tmp"; then
-              ok=true
-              echo "Fetched trophy from $base"
-              break
-            fi
-          done
-          if [ "$ok" = true ]; then
-            mv "$tmp" profile/trophy.svg
-          else
-            echo "::warning::All trophy endpoints unavailable, keeping existing profile/trophy.svg"
-          fi
+          common="api?username=$owner&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&hide=issues,prs"
+          fetch_card profile/stats.svg "$common" "${stats_hosts[@]}"
+          fetch_card profile/stats-dark.svg "$common&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" "${stats_hosts[@]}"
 
       - name: Commit changes
         run: |
           git config user.name "D.Yang"
           git config user.email "koyangslash@gmail.com"
-          git add profile/ README.md
-          git push
+          git add profile/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update profile stats"
+            git push
+          fi

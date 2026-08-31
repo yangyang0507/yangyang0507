@@ -1,35 +1,36 @@
-#### 👋 Hi There
+<p align="center">
+  <img src="profile/banner.jpg" width="100%" alt="A Gibson Les Paul, a CRT, and an amp under red and amber stage lights">
+</p>
 
-I'm D.Yang, Love Coding, Love Rock N' Roll~
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E63946&center=true&vCenter=true&width=520&lines=Full-stack+engineer;I+build+coding+agents;Love+coding.+Love+rock+n%27+roll" alt="Full-stack engineer">
+</p>
 
-#### 💻 Coding Activity
-<a href="https://wakatime.com/@devyang">
-  <img src="https://wakatime.com/share/@devyang/4b9582f2-3e9a-4090-b499-c7c6078ccc8f.svg"/>
-</a>
+### D.Yang
 
-#### 🏅 Top Repositories
+**Full-stack engineer** from Chongqing. I ship software and play it loud.
 
-<!-- TOP_REPOS:START -->
-| Repository | Stars | Forks | Lang | Description |
-| --- | ---: | ---: | :---: | --- |
-| [mybatis-plus](https://github.com/baomidou/mybatis-plus) | 17462 | 4446 | Java | An powerful enhanced toolkit of MyBatis for simplify development |
-| [oh-my-dsh](https://github.com/agi-fans/oh-my-dsh) | 27 | 4 | TypeScript | A focused, keyboard-first DeepSeek coding agent built on the ... |
-| [starepo](https://github.com/yangyang0507/starepo) | 32 | 1 | TypeScript | Search your GitHub stars with semantic search |
-| [herdr-skill](https://github.com/yangyang0507/herdr-skill) | 3 | 0 | Shell | better skill for herdr |
-<!-- TOP_REPOS:END -->
+I helped build [MyBatis-Plus](https://github.com/baomidou/mybatis-plus) as an org admin (17k+ stars). These days I write coding agents that live in the terminal. Right now that's [oh-my-dsh](https://github.com/agi-fans/oh-my-dsh).
 
-#### 🔖 GitHub Status
+If the commit graph is quiet, check the amp.
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=150 align="center" src="profile/stats.svg" />
-</a>
+[Blog](https://dyang.top) · [X](https://x.com/yangyang0507)
 
-<a href="https://github.com/denvercoder1/github-readme-streak-stats">
-  <img height=150 align="center" src="profile/streak.svg" alt="GitHub Streak" />
-</a>
+<p align="center" valign="middle">
+  <img src="profile/eq.svg" width="220" alt="">
+</p>
 
-#### 🏆 Github Profile Trophy
+### Tonight's set
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="profile/trophy.svg"/>
-</a>
+1. **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** — keyboard-first DeepSeek coding agent
+2. **[starepo](https://github.com/yangyang0507/starepo)** — semantic search over your GitHub stars
+3. **[pi-wechat](https://github.com/yangyang0507/pi-wechat)** — WeChat channel for Pi agents
+
+### Back catalog
+
+- **[MyBatis-Plus](https://github.com/baomidou/mybatis-plus)** — org admin. Still touring.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <img src="profile/stats.svg" alt="GitHub stats">
+</picture>

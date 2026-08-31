@@ -9,36 +9,36 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #2f80ed;
+            fill: #58a6ff;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           
     .stat {
-      font: 600 14px 'Inter', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #333;
+      font: 600 14px 'Inter', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #333; 
+      font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #c9d1d9; 
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
     .bold { font-weight: 700 }
     .icon {
-      fill: #4c71f2;
+      fill: #58a6ff;
       display: block;
     }
     
     .rank-circle-rim {
-      stroke: #2f80ed;
+      stroke: #58a6ff;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #2f80ed;
+      stroke: #58a6ff;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -90,7 +90,7 @@
           height="99%"
           stroke="#E4E2E2"
           width="494"
-          fill="#fffefe"
+          fill="#0d1117"
           stroke-opacity="0"
         />
 
