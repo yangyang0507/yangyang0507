@@ -9,19 +9,32 @@ I'm D.Yang, Love Coding, Love Rock N' Roll~
 
 #### 🏅 Top Repositories
 
-<a href="https://github.com/baomidou/mybatis-plus">
-  <img height=120 align="center" src="profile/mybatis-plus-stats.svg" />
-</a>
-<a href="https://github.com/agi-fans/oh-my-dsh">
-  <img height=120 align="center" src="profile/oh-my-dsh-stats.svg" />
-</a>
-<br/>
-<a href="https://github.com/yangyang0507/starepo">
-  <img height=120 align="center" src="profile/starepo-stats.svg" />
-</a>
-<a href="https://github.com/yangyang0507/herdr-skill">
-  <img height=120 align="center" src="profile/herdr-skill-stats.svg" />
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/baomidou/mybatis-plus">
+        <img height=120 src="profile/mybatis-plus-stats.svg" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/agi-fans/oh-my-dsh">
+        <img height=120 src="profile/oh-my-dsh-stats.svg" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/yangyang0507/starepo">
+        <img height=120 src="profile/starepo-stats.svg" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/yangyang0507/herdr-skill">
+        <img height=120 src="profile/herdr-skill-stats.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 #### 🔖 GitHub Status
 
