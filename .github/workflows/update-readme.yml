@@ -2,12 +2,13 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # 08:00 CST (UTC+8) daily
   workflow_dispatch:
   push:
     branches: [ master, main ]
     paths:
       - '.github/workflows/update-readme.yml'
+      - '.github/scripts/update-readme.mjs'
 
 permissions:
   contents: write
@@ -17,59 +18,33 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-stats:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate stats cards
-        run: |
-          # Official github-readme-stats.vercel.app is often paused, so try
-          # a community mirror first. Failure keeps the existing SVG.
-          fetch_card() {
-            local out="$1" path="$2"; shift 2
-            local hosts=("$@") tmp ok=false url
-            tmp=$(mktemp)
-            for host in "${hosts[@]}"; do
-              url="$host/$path"
-              echo "Trying $url ..."
-              if curl --fail --silent --show-error --location --max-time 60 \
-                --retry 2 --retry-delay 5 --retry-all-errors \
-                "$url" --output "$tmp" \
-                && grep -q '<svg' "$tmp" \
-                && ! grep -qi 'something went wrong' "$tmp"; then
-                # Generator leftover when hide_title=true
-                sed -i '/^[[:space:]]*undefined[[:space:]]*$/d' "$tmp"
-                mv "$tmp" "$out"
-                ok=true
-                echo "Fetched $out"
-                break
-              fi
-            done
-            if [ "$ok" != true ]; then
-              echo "::warning::All endpoints unavailable for $out, keeping existing file"
-            fi
-          }
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-          stats_hosts=(
-            "https://github-readme-stats-eight-theta.vercel.app"
-            "https://github-readme-stats.vercel.app"
-          )
-          owner="${{ github.repository_owner }}"
-          common="api?username=$owner&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&hide_title=true&hide=issues,prs"
-          fetch_card profile/stats.svg "$common" "${stats_hosts[@]}"
-          fetch_card profile/stats-dark.svg "$common&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" "${stats_hosts[@]}"
+      - name: Refresh Open Source & Currently Working On sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: node .github/scripts/update-readme.mjs
 
-      - name: Commit changes
+      - name: Commit and push if changed
         run: |
           git config user.name "D.Yang"
           git config user.email "koyangslash@gmail.com"
-          git add profile/
+          git add README.md
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "chore: update profile stats"
+            git commit -m "chore: update README open-source & activity"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi

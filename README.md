@@ -1,36 +1,32 @@
-<p align="center">
-  <img src="profile/banner.jpg" width="100%" alt="A Gibson Les Paul, a CRT, and an amp under red and amber stage lights">
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E63946&center=true&vCenter=true&width=520&lines=Full-stack+engineer;I+build+coding+agents;Love+coding.+Love+rock+n%27+roll" alt="Full-stack engineer">
-</p>
-
 ### D.Yang
 
 **Full-stack engineer** from Chongqing. I ship software and play it loud.
 
-I helped build [MyBatis-Plus](https://github.com/baomidou/mybatis-plus) as an org admin (17k+ stars). These days I write coding agents that live in the terminal. Right now that's [oh-my-dsh](https://github.com/agi-fans/oh-my-dsh).
-
-If the commit graph is quiet, check the amp.
+Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These days I build coding agents and developer tools that live in the terminal. If the commit graph is quiet, check the amp.
 
 [Blog](https://dyang.top) · [X](https://x.com/yangyang0507)
 
-<p align="center" valign="middle">
-  <img src="profile/eq.svg" width="220" alt="">
-</p>
+### Open Source
 
-### Tonight's set
+<!-- OPEN_SOURCE:START -->
+| Project | Description | Lang | Stars |
+| :--- | :--- | :--- | ---: |
+| **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** | Keyboard-first TUI companion for DeepSeek Harness (`omdsh`) | TypeScript | 32 |
+| **[dsh-better](https://github.com/agi-fans/dsh-better)** | Codebase-grounded `/better` prompt deepening & subagent verification for DSH | TypeScript | 1 |
+| **[starepo](https://github.com/yangyang0507/starepo)** | Semantic search over your GitHub stars | TypeScript | 34 |
+| **[pi-wechat](https://github.com/yangyang0507/pi-wechat)** | WeChat channel integration for Pi coding agents | TypeScript | 7 |
+| **[claude-agent-sdk-ui](https://github.com/yangyang0507/claude-agent-sdk-ui)** | Declarative terminal UI framework for Claude Agent SDK (React + Ink) | TypeScript | 6 |
+| **[pi-zenmux](https://github.com/yangyang0507/pi-zenmux)** | ZenMux model provider extension for Pi | TypeScript | 3 |
+| **[herdr-skill](https://github.com/yangyang0507/herdr-skill)** | Streamlined agent skill workflow for Herdr | Shell | 3 |
+| **[mybatis-plus](https://github.com/baomidou/mybatis-plus)** | Enhanced MyBatis toolkit for simplified Java development *(org admin)* | Java | 17.5k |
+<!-- OPEN_SOURCE:END -->
 
-1. **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** — keyboard-first DeepSeek coding agent
-2. **[starepo](https://github.com/yangyang0507/starepo)** — semantic search over your GitHub stars
-3. **[pi-wechat](https://github.com/yangyang0507/pi-wechat)** — WeChat channel for Pi agents
+### Currently Working On
 
-### Back catalog
-
-- **[MyBatis-Plus](https://github.com/baomidou/mybatis-plus)** — org admin. Still touring.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
-  <img src="profile/stats.svg" alt="GitHub stats">
-</picture>
+<!-- WORKING_ON:START -->
+- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.27.0`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.27.0) — [fix(tui): keep OSC 7501 states live and refine Herdr integration](https://github.com/agi-fans/oh-my-dsh/commit/8714744c045ebb4925ec40c46844014d20a19f9e) *(2026-11-14)*
+- **[agi-fans/dsh-better](https://github.com/agi-fans/dsh-better)** · [`v0.1.2`](https://github.com/agi-fans/dsh-better/releases/tag/v0.1.2) — [chore: keep the explainer video out of the npm package](https://github.com/agi-fans/dsh-better/commit/4de3dc3f6aa07ff5e10419529339b633ec3ae0aa) *(2026-11-14)*
+- **[herdr-skill](https://github.com/yangyang0507/herdr-skill)** — [feat: detect Herdr TUI, Core, and App and drive each one](https://github.com/yangyang0507/herdr-skill/commit/87fef405c34305f0ea50c12cafcfc41158383754) *(2026-10-31)*
+- **[starepo](https://github.com/yangyang0507/starepo)** · [`v2.3.0`](https://github.com/yangyang0507/starepo/releases/tag/v2.3.0) — [fix: mark built CLI entry executable](https://github.com/yangyang0507/starepo/commit/c7aafcf389fac8b151d8c0e02b7d29c934335536) *(2026-10-28)*
+- **[baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)** · [`v3.5.18.1`](https://github.com/baomidou/mybatis-plus/releases/tag/v3.5.18.1) — [fix: 修复常量恒等式与 XOR 条件导致的越权及全表校验绕过问题](https://github.com/baomidou/mybatis-plus/commit/06cfb187d657a975dc55830f4d89e13c625f9850) *(2026-10-21)*
+<!-- WORKING_ON:END -->
