@@ -12,7 +12,7 @@ Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These day
 | Project | Description | Lang | Stars |
 | :--- | :--- | :--- | ---: |
 | **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** | Keyboard-first TUI companion for DeepSeek Harness (`omdsh`) | TypeScript | 32 |
-| **[dsh-better](https://github.com/agi-fans/dsh-better)** | Codebase-grounded `/better` prompt deepening & subagent verification for DSH | TypeScript | 1 |
+| **[dsh-better](https://github.com/agi-fans/dsh-better)** | Codebase-grounded `/better` prompt deepening & subagent verification for DSH | TypeScript | 3 |
 | **[starepo](https://github.com/yangyang0507/starepo)** | Semantic search over your GitHub stars | TypeScript | 34 |
 | **[pi-wechat](https://github.com/yangyang0507/pi-wechat)** | WeChat channel integration for Pi coding agents | TypeScript | 7 |
 | **[claude-agent-sdk-ui](https://github.com/yangyang0507/claude-agent-sdk-ui)** | Declarative terminal UI framework for Claude Agent SDK (React + Ink) | TypeScript | 6 |
