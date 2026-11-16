@@ -11,7 +11,7 @@ Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These day
 <!-- OPEN_SOURCE:START -->
 | Project | Description | Lang | Stars |
 | :--- | :--- | :--- | ---: |
-| **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** | Keyboard-first TUI companion for DeepSeek Harness (`omdsh`) | TypeScript | 32 |
+| **[oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** | Keyboard-first TUI companion for DeepSeek Harness (`omdsh`) | TypeScript | 34 |
 | **[dsh-better](https://github.com/agi-fans/dsh-better)** | Codebase-grounded `/better` prompt deepening & subagent verification for DSH | TypeScript | 3 |
 | **[starepo](https://github.com/yangyang0507/starepo)** | Semantic search over your GitHub stars | TypeScript | 34 |
 | **[pi-wechat](https://github.com/yangyang0507/pi-wechat)** | WeChat channel integration for Pi coding agents | TypeScript | 7 |
@@ -24,7 +24,7 @@ Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These day
 ### Currently Working On
 
 <!-- WORKING_ON:START -->
-- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.27.0`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.27.0) — [fix(tui): keep OSC 7501 states live and refine Herdr integration](https://github.com/agi-fans/oh-my-dsh/commit/8714744c045ebb4925ec40c46844014d20a19f9e) *(2026-11-14)*
+- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.28.0`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.28.0) — [fix(tui): keep OSC 7501 states live and refine Herdr integration](https://github.com/agi-fans/oh-my-dsh/commit/8714744c045ebb4925ec40c46844014d20a19f9e) *(2026-11-15)*
 - **[agi-fans/dsh-better](https://github.com/agi-fans/dsh-better)** · [`v0.1.2`](https://github.com/agi-fans/dsh-better/releases/tag/v0.1.2) — [chore: keep the explainer video out of the npm package](https://github.com/agi-fans/dsh-better/commit/4de3dc3f6aa07ff5e10419529339b633ec3ae0aa) *(2026-11-14)*
 - **[herdr-skill](https://github.com/yangyang0507/herdr-skill)** — [feat: detect Herdr TUI, Core, and App and drive each one](https://github.com/yangyang0507/herdr-skill/commit/87fef405c34305f0ea50c12cafcfc41158383754) *(2026-10-31)*
 - **[starepo](https://github.com/yangyang0507/starepo)** · [`v2.3.0`](https://github.com/yangyang0507/starepo/releases/tag/v2.3.0) — [fix: mark built CLI entry executable](https://github.com/yangyang0507/starepo/commit/c7aafcf389fac8b151d8c0e02b7d29c934335536) *(2026-10-28)*
