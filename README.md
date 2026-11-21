@@ -24,7 +24,7 @@ Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These day
 ### Currently Working On
 
 <!-- WORKING_ON:START -->
-- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.29.0`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.29.0) — [test(omdsh): disable session-title-llm in bootTuiTurn to prevent wire race](https://github.com/agi-fans/oh-my-dsh/commit/acd5910c0a306a5ca15313117bd684e94aa03228) *(2026-11-20)*
+- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.29.1`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.29.1) — [docs(site): update streaming Markdown caching notes in performance guide](https://github.com/agi-fans/oh-my-dsh/commit/1fb865afad0b1e22e98e692b00336915d7b88fdc) *(2026-11-21)*
 - **[agi-fans/dsh-better](https://github.com/agi-fans/dsh-better)** · [`v0.1.3`](https://github.com/agi-fans/dsh-better/releases/tag/v0.1.3) — [fix: align helpers with current DeepSeek Harness](https://github.com/agi-fans/dsh-better/commit/03e3656c4f0a1a30583256e8039c6b36dcae42e1) *(2026-11-19)*
 - **[herdr-skill](https://github.com/yangyang0507/herdr-skill)** — [feat: detect Herdr TUI, Core, and App and drive each one](https://github.com/yangyang0507/herdr-skill/commit/87fef405c34305f0ea50c12cafcfc41158383754) *(2026-10-31)*
 - **[starepo](https://github.com/yangyang0507/starepo)** · [`v2.3.0`](https://github.com/yangyang0507/starepo/releases/tag/v2.3.0) — [fix: mark built CLI entry executable](https://github.com/yangyang0507/starepo/commit/c7aafcf389fac8b151d8c0e02b7d29c934335536) *(2026-10-28)*
