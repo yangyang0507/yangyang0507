@@ -24,7 +24,7 @@ Org admin at [MyBatis-Plus](https://github.com/baomidou/mybatis-plus). These day
 ### Currently Working On
 
 <!-- WORKING_ON:START -->
-- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.29.2`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.29.2) — [fix(site): align TerminalDemo with real omdsh TUI palette and layout](https://github.com/agi-fans/oh-my-dsh/commit/1c319666b247ff32aaf92903a004883f003580e7) *(2026-11-22)*
+- **[agi-fans/oh-my-dsh](https://github.com/agi-fans/oh-my-dsh)** · [`v0.29.4`](https://github.com/agi-fans/oh-my-dsh/releases/tag/v0.29.4) — [fix(tui): align process notices and soften killed job status](https://github.com/agi-fans/oh-my-dsh/commit/c078afea6ef9d6485df9b153078c8f075d97add9) *(2026-11-22)*
 - **[agi-fans/dsh-better](https://github.com/agi-fans/dsh-better)** · [`v0.1.3`](https://github.com/agi-fans/dsh-better/releases/tag/v0.1.3) — [fix: align helpers with current DeepSeek Harness](https://github.com/agi-fans/dsh-better/commit/03e3656c4f0a1a30583256e8039c6b36dcae42e1) *(2026-11-19)*
 - **[herdr-skill](https://github.com/yangyang0507/herdr-skill)** — [feat: detect Herdr TUI, Core, and App and drive each one](https://github.com/yangyang0507/herdr-skill/commit/87fef405c34305f0ea50c12cafcfc41158383754) *(2026-10-31)*
 - **[starepo](https://github.com/yangyang0507/starepo)** · [`v2.3.0`](https://github.com/yangyang0507/starepo/releases/tag/v2.3.0) — [fix: mark built CLI entry executable](https://github.com/yangyang0507/starepo/commit/c7aafcf389fac8b151d8c0e02b7d29c934335536) *(2026-10-28)*
